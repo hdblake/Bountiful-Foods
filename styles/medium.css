@@ -1,0 +1,142 @@
+@media only screen and (min-width: 31em) {
+  * {
+    box-sizing: border-box;
+    --color1: #2914c8;
+    --color2: #e4c9f3;
+    --color3: #fff;
+  }
+
+  /* HEADER CSS STYLING */
+
+  .logo-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-block img {
+    margin-right: 5px;
+    margin-bottom: 0px;
+  }
+
+  .logo-block p {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+
+  /* HOME PAGE CSS STYLING */
+
+  main .h2 {
+    font-size: 38px;
+    margin-top: 5px;
+  }
+
+  .card img {
+    max-width: 440px;
+    height: auto;
+  }
+
+  .card {
+    padding: 8px;
+    margin-bottom: 30px;
+  }
+
+  .card p {
+    margin-bottom: 15px;
+  }
+
+  .card p,
+  .card span,
+  .contact .card p a {
+	  font-size: 20px;
+  }
+
+  .drink-orders .total-orders {
+    font-size: 26px;
+  }
+
+  .card h4,
+  .weather-card div:nth-child(2) h4,
+  .form h4 {
+    font-size: 26px;
+  }
+
+  .weather .weather-card {
+    padding: 8px;
+  }
+
+  .weather-card div:nth-child(1) {
+    font-size: 22px;
+  }
+
+  .weather-card div:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .call-to-action button {
+    width: 225px;
+    font-size: 24px;
+  }
+
+  .contact .card div:nth-of-type(5) p {
+    margin-top: 10px;
+  }
+
+  .contact .card p a {
+    font-size: 26px;
+  }
+
+  /* FRESH PAGE CSS STYLING */
+
+  .form label {
+    font-size: 21px;
+  }
+
+  .form input,
+  .form select,
+  .form textarea {
+	  width: 245px;
+  }
+
+  .form button {
+    font-size: 22px;
+    padding: 10px;
+    width: 175px;
+  }
+
+  /* ABOUT US PAGE CSS SYLING */
+
+  .contact .card h4 {
+    margin-bottom: 6px;
+  }
+
+  /* FOOTER CSS STYLING */
+
+  footer .logo-block img{
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  footer .social {
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  footer .social p {
+	font-size: 23px;
+  margin-right: 10px;
+  }
+
+  footer .social .social-icon {
+    min-width: 15%;
+  }
+
+  footer .social i {
+	font-size: 32px;
+  }
+
+  footer .last-modified {
+    font-size: 21px;
+  }
+}

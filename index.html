@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap" rel="stylesheet">
+    <meta name="description"
+      content="This is the Home page of my final project for WDD230 at BYU-Idaho for Bountiful Foods">
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-block">
+        <picture>
+          <source media="(min-width: 31em)" srcset="images/logos/main-logo.webp" width="130" height="146">
+          <img src="images/logos/secondary-logo.webp" alt="Bountiful Foods Logo" width="258" height="50">
+        </picture>
+        <p>The freshest fruit in California</p>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="home-container">
+        <section class="area-locations">
+          <h2 class="h2">Locations</h2>
+          <div class="card">
+            <picture>
+              <source media="(max-width: 31em)" srcset="images/home/carlsbad-beach-300w.webp" width="300" height="225">
+              <source media="(max-width: 61em)" srcset="images/home/carlsbad-beach-440w.webp" width="440" height="330">
+              <source media="(min-width: 61.1em)" srcset="images/home/carlsbad-beach-640w.webp" width="640" height="480">
+              <img src="images/home/carlsbad-beach-640w.webp" alt="Carlsbad Beach" width="640" height="480">
+            </picture>
+            <div class="summary">
+              <h4>Carlsbad, CA</h4>
+              <p>
+                Our HQ are located in beautiful Carlsbad, CA! Our freshly grown fruit really thrive in the amazing climate 
+                that this coastal town has to offer. Just North of San Diego, this town is just off the coast of California and offers
+                breathtaking scenery.
+              </p>
+              <p>
+                With a population of arond 115,000 people, this town has a lot to offer. That is why we chose it as
+                our location for our HQ!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <picture>
+              <source media="(max-width: 31em)" srcset="images/home/solana-beach-300w.webp" width="300" height="225">
+              <source media="(max-width: 61em)" srcset="images/home/solana-beach-440w.webp" width="440" height="330">
+              <source media="(min-width: 61.1em)" srcset="images/home/solana-beach-640w.webp" width="640" height="480">
+              <img src="images/home/solana-beach-640w.webp" alt="Solana Beach" width="640" height="480" loading="lazy">
+            </picture>
+            <div class="summary">
+              <h4>Solana Beach, CA</h4>
+              <p>
+                Solana Beach is home to our first food truck! This is another great coastal town and a big reason why we chose it
+                as our first food truck location. Located between Carlsbad and San Diego, this makes it a great place for those who
+                live in and around San Diego to easily access or great tasting products being a midway point.
+              </p>
+              <p>
+                With a population of around 13,000 people, it has more of a small town vibe. We think this plays a key role for us
+                because it allows us to get closer with the community! Our food truck is located right off 
+                the beach, which is very convenient for those who are hanging around on a hot summer day!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <picture>
+              <source media="(max-width: 31em)" srcset="images/home/san-clemente-300w.webp" width="300" height="225">
+              <source media="(max-width: 61em)" srcset="images/home/san-clemente-440w.webp" width="440" height="330">
+              <source media="(min-width: 61.1em)" srcset="images/home/san-clemente-640w.webp" width="640" height="480">
+              <img src="images/home/san-clemente-640w.webp" alt="San Clemente Overview" width="640" height="480" loading="lazy">
+            </picture>
+            <div class="summary">
+              <h4>San Clemente, CA</h4>
+              <p>
+                San Clemente was a great location for us to open up our second food truck. Being part of Orange County, there are
+                a lot of activities and tourist that come through this area, which we thought we be a great idea to help spread our
+                brand.
+              </p>
+              <p>
+                Being just South of Los Angeles, this is another great coastal town to visit. With a population of around 65,000
+                people, this allows us to access a lot more customers compared to Solana Beach. We are located right off the beach
+                at this location as well. If you are ever around, don't forget to visit the San Clemente pier that offers great
+                views of the ocean!
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="weather">
+          <h2 class="h2">Weather</h2>
+          <div class="weather-card"></div>
+        </section>
+        <section class="drink-orders">
+          <h2 class="h2">Drink Orders</h2>
+          <div class="card">
+            <p class="total-orders"></p>
+            <picture>
+              <source media="(max-width: 31em)" srcset="images/home/fruit-smoothie-300w.webp" width="300" height="225">
+              <source media="(max-width: 61em)" srcset="images/home/fruit-smoothie-440w.webp" width="440" height="330">
+              <source media="(min-width: 61.1em)" srcset="images/home/fruit-smoothie-640w.webp" width="640" height="480">
+              <img src="images/home/fruit-smoothie-640w.webp" alt="SFruit Smoothie" width="640" height="480" loading="lazy">
+            </picture>
+          </div>
+        </section>
+        <section class="call-to-action">
+          <h2 class="h2">Call To Action</h2>
+          <button onclick="location.href='fresh.html'" type="button">Order A Drink Here!</button>
+        </section>
+        <section class="contact">
+          <h2 class="h2">Contact Us</h2>
+          <div class="card">
+            <div>
+              <h4>Phone:</h4>
+              <p>(442)339-1234</p>
+            </div>
+            <div>
+              <h4>Email:</h4>
+              <p>bountiful@gmail.com</p>
+            </div>
+            <div>
+              <h4>Address:</h4>
+              <p>123 Main St
+              <br>Carlsbad, CA 92010</p>
+            </div>
+            <div>
+              <h4>Hours:</h4>
+              <p>8 a.m - 6 p.m
+              <br>M - F</p>
+            </div>
+            <div>
+              <h4>Location:</h4>
+              <p>
+                <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215196,-117.287802,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939">Google Map</a>
+              </p>
+            </div>
+            <div>
+              <p>* NOTICE: None of this contact informtion is real. Please don't try to contact *</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="logo-block">
+        <picture>
+          <source media="(min-width: 31em)" srcset="images/logos/main-logo.webp" width="130" height="146">
+          <img src="images/logos/secondary-logo.webp" alt="Bountiful Foods Logo" width="258" height="50">
+        </picture>
+        <p>The freshest fruit in California</p>
+      </div>
+      <div class="social">
+        <p>Follow us on Social:</p>
+        <div class="social-icon">
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter" aria-hidden="true" title="twitter logo"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-hidden="true" title="instagram logo"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" aria-hidden="true" title="linkedin logo"></i></a>
+        </div>
+      </div>
+      <p class="last-modified"></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/0db8271eaf.js" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/weatherAPI.js"></script>
+    <script src="scripts/drink-ls.js"></script>
+  </body>
+</html>

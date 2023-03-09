@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap" rel="stylesheet">
+    <meta name="description"
+      content="This is the About Us page of my final project for WDD230 at BYU-Idaho for Bountiful Foods that gives a little backstory on this fictional company">
+    <title>About Us Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-block">
+        <picture>
+          <source media="(min-width: 31em)" srcset="images/logos/main-logo.webp" width="130" height="146">
+          <img src="images/logos/secondary-logo.webp" alt="Bountiful Foods Logo" width="258" height="50">
+        </picture>
+        <p>The freshest fruit in California</p>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="about-container">
+        <section class="founder">
+          <h2 class="h2">Our Founder</h2>
+          <div class="card">
+            <picture>
+              <source media="(max-width: 31em)" srcset="images/about/me-300w.webp" width="300" height="225">
+              <source media="(max-width: 61em)" srcset="images/about/me-440w.webp" width="440" height="330">
+              <source media="(min-width: 61.1em)" srcset="images/about/me-640w.webp" width="640" height="480">
+              <img src="images/about/me-640w.webp" alt="Image of Founder" width="640" height="480">
+            </picture>
+            <div class="info">
+              <h4>Hunter Blake</h4>
+              <p>
+                Hunter is the founder of Bountiful Foods. He has enjoys having fresh and organic fruits to help with his
+                lifestyle. He saw a great opporunity to start his own fruit farm that would help expose others to the great
+                benefits of eating healither at an affordable cost!
+              </p>
+              <p>
+                At the age of just 25, he is now running a successful business that has grown over the years. He has added
+                two food truck locations in San Clemente and Solana Beach, CA. This helps us get more exposure to additional
+                customers that we might not get!
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="story">
+          <h2 class="h2">Our Story</h2>
+          <div class="card">
+            <picture>
+              <source media="(max-width: 31em)" srcset="images/about/story-pic-300w.webp" width="300" height="225">
+              <source media="(max-width: 61em)" srcset="images/about/story-pic-440w.webp" width="440" height="330">
+              <source media="(min-width: 61.1em)" srcset="images/about/story-pic-640w.webp" width="640" height="480">
+              <img src="images/about/story-pic-640w.webp" alt="Image of Oranges" width="640" height="480" loading="lazy">
+            </picture>
+            <div class="info">
+              <p>
+                We first opened back in 2018 at our main location in Carlsbad, CA. Our main location serves as a great source of
+                fresh and locally grown produce. Inside, you'll find a store that is filled with all our amazing fruit, that is
+                hand picked and stocked daily. We also offer a drink bar that allows customers to create their own fruit smoothie
+                with up to 3 fruits to combine.
+              </p>
+              <p>
+                Our fruit smoothies is what really helped us grow and take that next step. This lead to us opening up our first food
+                truck in Solana Beach, CA in 2019. This helped get more exposure to customers closer to San Diego and serves as a great
+                midway point between San Diego and our main location. With business continuing to grow, we opened up our second food 
+                truck location in San Clemente, CA in 2021. This location helps us get more exposure to the Los Angeles area, where
+                we didn't recieve many customers from.
+              </p>
+              <p>
+                With the expansion of our food trucks and popularity on the rise, we now sell our fruit to local farmers. We are now
+                starting to use some national and international suppliers as well to help give even more customers access to our products!
+                We believe everyone should experience great tasting fruit and drinks that are fresh and locally grown, as well as at an 
+                price affordable!
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="logo-block">
+        <picture>
+          <source media="(min-width: 31em)" srcset="images/logos/main-logo.webp" width="130" height="146">
+          <img src="images/logos/secondary-logo.webp" alt="Bountiful Foods Logo" width="258" height="50">
+        </picture>
+        <p>The freshest fruit in California</p>
+      </div>
+      <div class="social">
+        <p>Follow us on Social:</p>
+        <div class="social-icon">
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter" aria-hidden="true" title="twitter logo"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-hidden="true" title="instagram logo"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" aria-hidden="true" title="linkedin logo"></i></a>
+        </div>
+      </div>
+      <p class="last-modified"></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/0db8271eaf.js" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

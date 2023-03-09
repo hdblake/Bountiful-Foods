@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap" rel="stylesheet">
+    <meta name="description"
+      content="This is the Fresh page of my final project for WDD230 at BYU-Idaho for Bountiful Foods. Customers can submit their drink orders from this page.">
+    <title>Fresh Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-block">
+        <picture>
+          <source media="(min-width: 31em)" srcset="images/logos/main-logo.webp" width="130" height="146">
+          <img src="images/logos/secondary-logo.webp" alt="Bountiful Foods Logo" width="258" height="50">
+        </picture>
+        <p>The freshest fruit in California</p>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="fresh-container">
+        <h2 class="h2">Order Your Drink(s)</h2>
+        <div class="form-container">
+          <form class="form">
+            <div class="customer-info">
+              <label for="fname">First Name:</label>
+              <input type="text" name="name" id="fname" required>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" name="phone" id="phone" placeholder="1234567890" required>
+            </div>
+            <div class="order-selection">
+              <h4>Select Up To 3 Fruits</h4>
+              <select name="select1" id="select1" required>
+                <option disabled selected value>Choose a Fruit</option>
+              </select>
+              <select name="select2" id="select2" required>
+                <option disabled selected value>Choose a Fruit</option>
+              </select>
+              <select name="select3" id="select3" required>
+                <option disabled selected value>Choose a Fruit</option>
+              </select>
+            </div>
+            <div class="request">
+              <label for="special" class="special-label">Special Request</label>
+              <textarea name="special" id="special" rows="6" placeholder="Please put any special request you may have here..."></textarea>
+            </div>
+            <div class="button">
+              <button type="submit" id="submit" name="submit">Submit Order</button>
+            </div>
+          </form>
+          <div id="output"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="logo-block">
+        <picture>
+          <source media="(min-width: 31em)" srcset="images/logos/main-logo.webp" width="130" height="146">
+          <img src="images/logos/secondary-logo.webp" alt="Bountiful Foods Logo" width="258" height="50">
+        </picture>
+        <p>The freshest fruit in California</p>
+      </div>
+      <div class="social">
+        <p>Follow us on Social:</p>
+        <div class="social-icon">
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter" aria-hidden="true" title="twitter logo"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-hidden="true" title="instagram logo"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" aria-hidden="true" title="linkedin logo"></i></a>
+        </div>
+      </div>
+      <p class="last-modified"></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/0db8271eaf.js" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/drink-form.js"></script>
+  </body>
+</html>

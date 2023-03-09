@@ -1,0 +1,208 @@
+@media only screen and (min-width: 61.1em) {
+  * {
+    box-sizing: border-box;
+    --color1: #2914c8;
+    --color2: #e4c9f3;
+    --color3: #fff;
+  }
+
+  /* HEADER CSS STYLING */
+
+  .nav li {
+    font-size: 28px;
+    padding: 8px;
+  }
+
+  /* HOME PAGE CSS STYLING */
+
+  main {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .card img {
+    max-width: 640px;
+    height: auto;
+  }
+
+  .card h4,
+  .weather-card div:nth-child(2) h4,
+  .form h4 {
+    font-size: 28px;
+  }
+
+  .area-locations .card {
+    display: grid;
+    grid-template-columns: 640px 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  .area-locations .card img {
+    grid-column: 1/2;
+  }
+
+  .area-locations .card .summary {
+    grid-column: 2/3;
+  }
+
+  .weather .weather-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .weather-card div:nth-child(1) {
+    font-size: 24px;
+  }
+
+  .weather-card div:nth-child(2) {
+    border-top: none;
+    border-left: 5px solid var(--color2);
+    font-size: 23px;
+  }
+
+  .drink-orders .card {
+    display: grid;
+    grid-template-columns: 640px 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  .drink-orders .card img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .drink-orders .card h4,
+  .drink-orders .card p {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .drink-orders .total-orders {
+    font-size: 30px;
+  }
+
+  .contact .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .contact .card div:nth-of-type(odd) {
+    grid-column: 1/2;
+  }
+
+  .contact .card div:nth-of-type(even) {
+    grid-column: 2/3;
+  }
+
+  .contact .card div:nth-of-type(5),
+  .contact .card div:nth-of-type(6) {
+    grid-column: span 2;
+  }
+
+  .contact .card div:nth-of-type(5) p {
+    margin-top: 15px;
+  }
+
+  .contact .card p a {
+    font-size: 28px;
+  }
+
+  /* FRESH PAGE CSS STYLING */
+
+  .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .form div:nth-child(1) {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .form div:nth-child(1) label {
+    text-align: right;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .form div:nth-child(1) input {
+    grid-column: 2/3;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .form div:nth-child(2) {
+    grid-column: 2/3;
+  }
+
+  .form div:nth-child(1),
+  .form div:nth-child(2) {
+    grid-row: 1/2;
+  }
+
+  .form div:nth-child(3),
+  .form div:nth-child(4) {
+    grid-column: span 2;
+  }
+
+  .form div:nth-child(3) {
+    grid-row: 2/3;
+  }
+
+  .form div:nth-child(3) textarea {
+    width: 500px;
+  }
+
+  .form div:nth-child(4) {
+    grid-row: 3/4;
+  }
+
+  /* ABOUT US PAGE CSS STYLING */
+
+  .about-container .card {
+    display: grid;
+    grid-template-columns: 640px 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+
+  .about-container .card img {
+    grid-column: 1/2;
+  }
+
+  .about-container .card .info {
+    grid-column: 2/3;
+  }
+
+  /* FOOTER CSS STYLING */
+
+  footer .social {
+    padding: 8px;
+  }
+
+  footer .social p {
+    font-size: 26px;
+  }
+
+  footer .social .social-icon {
+    min-width: 10%;
+  }
+
+  footer .social i {
+    font-size: 36px;
+  }
+  
+  footer .last-modified {
+    font-size: 23px;
+  }
+}

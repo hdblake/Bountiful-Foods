@@ -1,0 +1,374 @@
+* {
+	box-sizing: border-box;
+	--color1: #2914c8;
+	--color2: #e4c9f3;
+	--color3: #fff;
+}
+
+body {
+	margin: 0 auto;
+	font-family: "Marvel", sans-serif;
+	/* background-color: var(--color1); */
+}
+
+/* HEADER CSS STYLING */
+
+header {
+	margin: 0 auto;
+	text-align: center;
+	background-color: var(--color2);
+}
+
+.logo-block,
+.nav {
+	padding: 5px;
+}
+
+.logo-block {
+	margin-bottom: -20px;
+}
+
+.logo-block img {
+	margin-bottom: -5px;
+}
+
+.logo-block p {
+	color: var(--color1);
+	font-size: 22px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: var(--color1);
+}
+
+.nav li {
+	list-style: none;
+	font-size: 24px;
+	padding: 5px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: var(--color3);
+	padding: 5px;
+}
+
+.nav a:hover {
+	background-color: var(--color2);
+	color: var(--color1);
+	padding: 5px;
+	border-radius: 10px;
+}
+
+/* HOME PAGE CSS SYLING*/
+
+.home-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0.75rem;
+	gap: 0.5rem;
+}
+
+.area-locations {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main .h2 {
+	color: var(--color1);
+	font-size: 34px;
+	text-decoration: underline;
+	text-decoration-color: var(--color2);
+	text-underline-offset: 5px;
+	text-align: center;
+}
+
+.card {
+	background: var(--color1);
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 2px 2px 6px black;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+.card img {
+	border-radius: 8px;
+	max-width: 300px;
+	height: auto;
+}
+
+.card h4 {
+	font-size: 24px;
+	color: var(--color2);
+	text-decoration: underline;
+	text-decoration-color: var(--color3);
+	text-underline-offset: 5px;
+	margin: 5px;
+	margin-bottom: 15px;
+}
+
+.card p,
+.card span,
+.contact .card p a {
+	margin: 5px;
+	color: var(--color3);
+}
+
+.card p,
+.card span,
+.contact .card p a {
+	font-size: 18px;
+}
+
+.drink-orders .total-orders {
+	font-size: 22px;
+}
+
+.weather {
+	text-align: center;
+}
+
+.weather .weather-card {
+	background: var(--color1);
+	color: var(--color3);
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 2px 2px 6px black;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+.weather-card div:nth-child(1) {
+	font-size: 20px;
+}
+
+.weather-card div:nth-child(2) {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	justify-content: space-around;
+	border-top: 4px solid var(--color2);
+}
+
+.weather-card div:nth-child(2) h4 {
+	grid-row: 1/2;
+	grid-column: span 3;
+	font-size: 22px;
+	margin: 5px;
+	margin-top: 10px;
+	color: var(--color2);
+	text-decoration: underline;
+	text-decoration-color: var(--color3);
+	text-underline-offset: 5px;
+}
+
+.weather-card div:nth-child(2) p {
+	grid-row: 2/3;
+}
+
+.drink-orders {
+	text-align: center;
+}
+
+.call-to-action {
+	text-align: center;
+}
+
+.call-to-action button {
+	padding: 20px;
+	border-radius: 6px;
+	background-color: var(--color1);
+	border: none;
+	box-shadow: 2px 2px 6px black;
+	margin-bottom: 15px;
+	font-size: 21px;
+	color: var(--color3);
+}
+
+.call-to-action button:hover {
+	background-color: var(--color2);
+	color: var(--color1);
+}
+
+.contact .card div {
+	margin-bottom: 15px;
+}
+
+.contact .card p a {
+	text-decoration: none;
+	background-color: var(--color2);
+	color: var(--color1);
+	border-radius: 6px;
+	padding: 2px;
+	font-size: 24px;
+}
+
+.contact .card p a:hover {
+	background-color: var(--color3);
+	color: var(--color1);
+	border-radius: 6px;
+	padding: 2px;
+}
+
+/* FRESH PAGE CSS STYLING */
+
+.fresh-container {
+	margin: 0.75rem;
+}
+
+.form-container {
+	background-color: var(--color1);
+	color: var(--color3);
+	border-radius: 8px;
+	box-shadow: 2px 2px 6px black;
+	margin-bottom: 50px;
+}
+
+.form-container #output {
+	margin: 5px auto;
+	text-align: center;
+	padding: 5px;
+}
+
+.form-container p {
+	font-size: 20px;
+	color: var(--color3);
+}
+
+.form div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.form label {
+	font-size: 18px;
+}
+
+.form input,
+.form textarea {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.form select {
+	margin-bottom: 20px;
+}
+
+.form input,
+.form select,
+.form textarea {
+	width: 215px;
+	border-radius: 6px;
+	border: none;
+}
+
+.form input,
+.form select {
+	height: 30px;
+}
+
+.form h4 {
+	font-size: 24px;
+	color: var(--color2);
+	text-decoration: underline;
+	text-decoration-color: var(--color3);
+	margin: 0px;
+	margin-bottom: 15px;
+	text-underline-offset: 5px;
+}
+
+.form button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color2);
+	color: var(--color1);
+	font-size: 20px;
+	border-radius: 6px;
+	border: none;
+	margin: 20px;
+	padding: 20px;
+}
+
+.form button:hover {
+	background-color: var(--color3);
+}
+
+/* ABOUT US PAGE CSS STYLING */
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0.75rem;
+}
+
+.about-container section p {
+	text-align: center;
+}
+
+/* FOOTER CSS STYLING */
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+	background-color: var(--color2);
+}
+
+footer .logo-block img{
+	margin-top: 15px;
+	margin-bottom: -20px;
+}
+
+footer .social {
+	margin-top: 15px;
+	color: var(--color1);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	border-top: 2px solid var(--color1);
+}
+
+footer .social .social-icon {
+	display: flex;
+	min-width: 36%;
+	justify-content: space-between;
+}
+
+footer .social p {
+	font-size: 20px;
+	margin: 8px 0px;
+}
+
+footer .social a {
+	color: var(--color1);
+	margin: 5px;
+}
+
+footer .social a:hover {
+	color: var(--color3);
+}
+
+footer .social i {
+	font-size: 28px;
+}
+
+footer .last-modified {
+	margin-bottom: 0px;
+	margin-top: 2px;
+	padding: 5px;
+	color: var(--color3);
+	font-size: 19px;
+	letter-spacing: 0.75px;
+	background-color: var(--color1);
+}
