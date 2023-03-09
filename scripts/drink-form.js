@@ -70,12 +70,7 @@ function displayOrder(event) {
     option1: fruit1,
     option2: fruit2,
     option3: fruit3,
-    request: request,
-    carbohydrates: 0,
-    protein: 0,
-    fat: 0,
-    sugar: 0,
-    calories: 0
+    request: request
   };
 
   // Variable for modified date format
@@ -87,17 +82,12 @@ function displayOrder(event) {
 
   // Add input values to output area
   output.innerHTML = `<p>Order Submitted! Details:<br>
-  First Name: ${name}<br>
-  Email: ${email}<br>
-  Phone Number: ${phone}<br>
-  Fruit Selections: ${fruit1}, ${fruit2}, ${fruit3}<br>
-  Request: ${request}<br>
-  Date: ${dateFormat}</p>
-  <p>Carbs: ${drink.carbohydrates}<br>
-  Protein: ${drink.protein}<br>
-  Fat: ${drink.fat}<br>
-  Sugar: ${drink.sugar}<br>
-  Calories: ${drink.calories}</p>`;
+  First Name: ${drink.name}<br>
+  Email: ${drink.email}<br>
+  Phone Number: ${drink.phone}<br>
+  Fruit Selections: ${drink.fruit1}, ${drink.fruit2}, ${drink.fruit3}<br>
+  Request: ${drink.request}<br>
+  Date: ${dateFormat}</p>`;
 
   // Locally store data in drinks variable
   localStorage.setItem("drinks", JSON.stringify(drinks));
